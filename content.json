@@ -1,0 +1,34 @@
+{
+    "name": "Lacefeeta",
+    "short_name": "Lacefeeta",
+    "main_url": "https://www.lacefeeta.com",
+    "seller_url": "https://seller.lacefeeta.com",
+    "meta_title" : "Lacefeeta.com | Choose Order Enjoy | Best E-commerce",
+    "meta_description" : "Lacefeeta BD is a multivendor e-commerce business solution in Bangladesh",
+    "meta_keywords" : "lacefeeta,bd,daraz",
+    "logo": "https://www.lacefeeta.com/images/logos/logo.png",
+    "favicon": "https://www.lacefeeta.com/images/logos/logo.png",
+    "registered_name": "lacefeeta.com",
+    "show_all_category": "1",
+    "trade_licence_no": "223730",
+    "vat_reg_no": "BIN 004305858-0401",
+    "tin": "654033393432",
+    "primary_email": "info@lacefeeta.com",
+    "contact_phone": "+880 9696 848858",
+    "contact_location": "Dhaka",
+
+    "social_facebook": "",
+    "social_youtube": "",
+    "social_twitter": "",
+    "social_linkedin": "",
+    "social_whatsapp": "",
+    "social_instagram": "",
+
+    "delivery_collecting_message": "Free Delivery on collecting your order from lacefeeta Pick-up point",
+    "copyright_text": " 2021 lacefeeta.com | All rights reserved ",
+    "currency": "USD",
+    "currency_symbol": "$",
+
+    "enable_cart_navbar": false,
+    "enable_cart_sidebar": true
+}

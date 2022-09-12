@@ -1,0 +1,41 @@
+.remove-cart-item {
+  $self: &;
+
+  #{$self}__details {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+
+    #{$self}__name {
+      flex-basis: 75%;
+      font-size: 0.88rem;
+      font-weight: 700;
+    }
+
+    #{$self}__close {
+      & svg {
+        color: #aaa;
+        font-size: 2rem; // icon size
+
+        &:hover {
+          color: #ca091b;
+        }
+      }
+    }
+  }
+
+  #{$self}__action {
+    display: flex;
+    justify-content: flex-end;
+
+    #{$self}__cancel {
+      width: 6rem;
+    }
+
+    & div:last-child {
+      width: 6rem;
+      margin-left: 1rem;
+    }
+  }
+}

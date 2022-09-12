@@ -1,0 +1,18 @@
+.btn-modal-close {
+    position: absolute;
+    right: -16px;
+    padding-right: 20px;
+    cursor: pointer;
+    top: -10px;
+    background: #ffffffed;
+    border-radius: 20px;
+    width: 36px;
+    height: 36px;
+    padding: 12px;
+    box-shadow: 1px 2px 30px grey;
+}
+.btn-modal-close i {
+    margin: -1px;
+    margin-left: 1px;
+    margin-top: -2px;
+}

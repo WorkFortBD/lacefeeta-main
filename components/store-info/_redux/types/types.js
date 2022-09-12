@@ -1,0 +1,1 @@
+export const GET_STORE_INFO = 'GET_STORE_INFO';

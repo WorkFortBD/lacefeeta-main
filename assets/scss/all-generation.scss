@@ -1,0 +1,166 @@
+$primary-color: #172337;
+$secondary-color: #ff9800;
+$color-white: #fff;
+
+.header-top {
+  background-color: $primary-color;
+}
+
+.header__logo-box {
+  width: 135px;
+}
+
+.header-search-product .header-custom-prepend {
+  background-color: $primary-color;
+}
+
+.header-search-product input {
+  border: 2px solid $primary-color;
+}
+
+.header-search-product .header-custom-prepend {
+  border: 2px solid $primary-color;
+  background-color: $primary-color;
+}
+
+.navbar-main-area {
+  background: $primary-color;
+
+  .navigation__navbar-nav {
+    background: $primary-color;
+
+    .navigation__nav-link {
+      color: $color-white;
+    }
+  }
+
+  .navigation__drop-down {
+    .navigation__nav-link {
+      color: $primary-color;
+    }
+  }
+}
+
+.navigation__drop-down.drop-down-menu-1 {
+  border-top: 2px solid $primary-color;
+}
+
+.cart-nav-link svg {
+  background: $primary-color;
+}
+
+.fixed-cart-items {
+  background: $primary-color;
+}
+
+.header-nav a .custom-fontAwesome {
+  color: $primary-color;
+}
+
+.company-policy-container {
+  background-color: $primary-color;
+}
+
+.cart-nav-link .cart-qty {
+  background: $secondary-color;
+}
+
+.menu_list {
+  background: $primary-color;
+}
+
+button.rc-menu-button {
+  color: $color-white;
+}
+
+img.menu {
+  display: none;
+}
+
+.custom-button-component,
+a .custom-button-component {
+  background-color: $primary-color;
+  border: 2px solid $primary-color;
+}
+
+.simple-btn.danger {
+  background-color: $secondary-color;
+}
+
+.modal_close_btn {
+  background-color: $secondary-color;
+  border: 2px solid $secondary-color;
+}
+
+.order-tracking-item a {
+  color: $primary-color;
+}
+
+.product_details_quantity_section .addToCartBtn {
+  background-color: $secondary-color;
+  border: 2px solid $secondary-color;
+}
+
+.active-price {
+  color: $secondary-color;
+}
+
+.floating-cart__header .floating-cart__close-icon {
+  color: $secondary-color;
+}
+
+.floating-cart__payment-info .floating-cart__payment-details span:last-child {
+  color: $secondary-color;
+}
+
+.simple-btn.success {
+  background-color: $secondary-color;
+}
+
+.btn-success {
+  background-color: $secondary-color;
+  border-color: $secondary-color;
+}
+
+.btn-danger {
+  background-color: $primary-color;
+  border-color: $primary-color;
+}
+
+.delivery_collection {
+  display: none;
+}
+
+.shipping_info_fontAwesome {
+  color: $primary-color;
+}
+
+.order_filter_section .nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  background-color: $primary-color !important;
+}
+
+.account_btn_group .google_btn {
+  background-color: $secondary-color;
+  border: 2px solid $secondary-color;
+}
+
+.category-search-title {
+  color: $primary-color;
+}
+
+.product_filter_heading {
+  color: $primary-color;
+}
+
+.cart_details_body {
+  color: $primary-color;
+}
+
+.cart_product_price span.price {
+  color: $secondary-color;
+}
+
+.cart__right-order_details_item p:last-child {
+  color: $secondary-color;
+}

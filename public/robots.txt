@@ -1,0 +1,10 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://lacefeeta.com
+
+# Sitemaps
+Sitemap: https://lacefeeta.com/sitemap.xml
+Sitemap: https://lacefeeta.com/server-sitemap.xml

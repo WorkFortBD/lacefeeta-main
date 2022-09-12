@@ -1,0 +1,55 @@
+.product-details-info {
+  $self: &;
+  margin: 2rem 0;
+
+  #{$self}__image-container {
+    #{$self}__image-large {
+      width: 400px;
+      background-color: #fff;
+      overflow-y: hidden;
+      margin-bottom: 1rem;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    #{$self}__small-images {
+      display: flex;
+
+      #{$self}__image-small {
+        width: 2.5rem;
+        margin-right: 0.5rem;
+
+        & img {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  #{$self}__details {
+    #{$self}__heading {
+      #{$self}__ratings {
+      }
+
+      #{$self}__brand {
+      }
+    }
+
+    #{$self}__price-quantity {
+    }
+  }
+
+  #{$self}__action {
+    display: flex;
+
+    #{$self}__buy-now {
+      margin-right: 1rem;
+    }
+  }
+}
+
+.single-product-section__long-description {
+  padding-left: 1rem;
+}

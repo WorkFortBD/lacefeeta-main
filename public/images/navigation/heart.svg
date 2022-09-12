@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <g id="heart_line" transform="translate(4146 1006)">
+    <rect id="Rectangle_shape" width="32" height="32" transform="translate(-4146 -1006)" fill="none"/>
+    <g id="heart" transform="translate(-4145 -1004)" clip-path="url(#clip-path)">
+      <path id="Path_15495" data-name="Path 15495" d="M15.027,26.754a.91.91,0,0,1-.554-.19A55.211,55.211,0,0,1,3.512,15.929C.406,11.67-.3,7.739,1.4,4.242a7.393,7.393,0,0,1,8.8-3.35,8.963,8.963,0,0,1,4.822,3.423A8.963,8.963,0,0,1,19.849.891a7.419,7.419,0,0,1,8.8,3.35c1.707,3.5,1,7.428-2.107,11.687A55.211,55.211,0,0,1,15.58,26.564.91.91,0,0,1,15.027,26.754Z" transform="translate(-0.045 -0.045)" fill="none" stroke="currentColor" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,124 @@
+$redColor: #fb2841;
+
+@media print {
+    .non-printable { display: none; }
+    #printable-invoice-area {
+        display: block;
+        width: 21cm;
+        height: 29.7cm;
+        margin: 30mm 45mm 30mm 45mm; 
+    }
+}
+
+.btn-print {
+    right: 0;
+    top: -2px;
+    float: right;
+    position: absolute;
+    border-radius: 0px;
+}
+
+#order-success-page {
+    padding-bottom: 3rem!important;
+    padding-top: 1rem!important;
+    font-size: 0.7rem;
+
+    .order-success-left {
+        .invoice-logo {
+            width: 100px;
+            margin-top: 20px;
+        }
+    
+        .order-invoice-header {
+            border-bottom: 1px solid #f6f6f6;
+        }
+
+        h3 {
+            color: green;
+            font-size: 1.2rem;
+            padding-bottom: 0.8rem;
+            border-bottom: 1px solid $redColor;
+        }
+
+        h4 {
+            font-size: 1rem;
+        }
+
+        .order-details {
+            .single-order-row-item {
+                padding: 10px;
+                margin-bottom: 5px;
+            }
+
+            h5 {
+                font-size: 0.8rem;
+                font-weight: bold;
+            }
+
+            p {
+                margin: 0px;
+                margin-top: 5px;
+                margin-left: 5px;
+            }
+        }
+    }
+
+    .order-success-right {
+        .order-product-item {
+            -webkit-box-shadow: 10px 20px 30px #cccccc4a;
+            box-shadow: 6px 9px 20px 0px #cccccc4a;
+            margin-top: 10px;
+            padding: 10px;
+        }
+
+        h3 {
+            font-size: 1rem;
+            padding-bottom: 0.8rem;
+            border-bottom: 1px solid $redColor;
+        }
+
+        h4 {
+            font-size: 0.8rem;
+        }
+
+        p {
+            margin: 0px;
+        }
+
+        .product-subtotal {
+            font-size: 1rem;
+            font-weight: bold;
+            color: #eb5466;
+        }
+
+        .order-calculation-table {
+            margin-top: 30px;
+            
+            tr{
+                td {
+                    padding: 5px;
+
+                    &:first-child {
+                        font-weight: bold;
+                    }
+
+                    &:last-child {
+                        text-align: right;
+                    }
+                }
+            }
+
+            .grand-total-text {
+                border-top: 1px solid #cccccc4a;
+                font-size: 1.2rem;
+            }
+
+            .grand-total-amount {
+                border-top: 1px solid #cccccc4a;
+                font-size: 1.2rem;
+                color: $redColor;
+                font-weight: bold;
+            }
+        }
+    }
+}

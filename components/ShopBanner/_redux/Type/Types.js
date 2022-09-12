@@ -1,0 +1,1 @@
+export const GET_SHOP_LIST = "GET_SHOP_LIST";
