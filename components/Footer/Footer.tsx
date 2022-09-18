@@ -281,7 +281,7 @@ const Footer = () => {
         <div className="container">
           <div className="row">
             <div className="col-12">
-              <div className="my-3">
+              {/* <div className="my-3">
                 <img
                   className="img-responsive"
                   src="/images/footer/shurjoPay.png"
@@ -289,7 +289,7 @@ const Footer = () => {
                   width={1240}
                   height={188}
                 />
-              </div>
+              </div> */}
               {/* <div className="my-5">
                                 <img className="img-responsive" src="/images/footer/payment-line.png" alt="payment-line" width={1240} height={45} />
                             </div> */}
