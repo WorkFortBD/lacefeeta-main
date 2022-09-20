@@ -582,7 +582,7 @@ const ProductDetailInfo = (props) => {
                                   </div>
                                 </div>
 
-                                <div className="mt-3 mt-lg-4 text-center">
+                                {/* <div className="mt-3 mt-lg-4 text-center">
                                   <span
                                     className="font-13 font-weight-600 py-2 px-4 d-inline-block rounded"
                                     style={{
@@ -592,10 +592,10 @@ const ProductDetailInfo = (props) => {
                                       width: "100%",
                                     }}
                                   >
-                                    Pay 10&#37; advance if purchase amount above
+                                    Pay 10% advance if purchase amount above
                                     2000 BDT
                                   </span>
-                                </div>
+                                </div> */}
                               </div>
                             </div>
                           </div>

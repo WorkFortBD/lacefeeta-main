@@ -78,7 +78,9 @@
 }
 
 .header__happy-hour > div > img {
-  width: 100%;
+  width: 80px;
+  height: 40px;
+  margin-left: 55px;
 }
 
 @include media("<600px") {
