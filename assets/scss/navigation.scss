@@ -240,12 +240,14 @@
 }
 
 .navigation__drop-down {
-  min-height: 500px;
+  // min-height: 500px;
   z-index: 1000;
   padding: 0px;
   margin: 0;
   box-shadow: 0 5px 5px rgb(0 0 0 / 10%), 0 10px 15px rgb(0 0 0 / 10%);
   background: #ffffffcf;
+  height: 400px;
+  overflow-y: auto;
 }
 
 /* // toggle button */
