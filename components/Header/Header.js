@@ -116,7 +116,7 @@ const Header = () => {
                 <div>
                   <img
                     className="pointer"
-                    src="/images/flag/flag.webp"
+                    src="/images/flag/flag.png"
                     alt="usa-flag"
                   />
                 </div>

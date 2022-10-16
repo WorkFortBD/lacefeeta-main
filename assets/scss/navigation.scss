@@ -54,7 +54,7 @@
   }
 
   @include media("<601px") {
-    padding-left: 0px;
+    padding-left: 20px;
     padding-right: 10px;
     text-align: -webkit-right;
   }
@@ -78,9 +78,10 @@
 }
 
 .header__happy-hour > div > img {
-  width: 80px;
-  height: 40px;
-  margin-left: 55px;
+  width: 45px;
+  height: 25px;
+  margin-left: 70px;
+  margin-top: 10px;
 }
 
 @include media("<600px") {
@@ -197,7 +198,7 @@
 .navigation__drop-down.drop-down-menu-1 {
   display: none;
   position: absolute;
-  background: white;
+  // background: white;
   top: calc(100% - 2px);
   left: inherit;
   white-space: nowrap;
@@ -207,7 +208,7 @@
 .displace.navigation__drop-down.drop-down-menu-1 {
   display: none;
   position: absolute;
-  background: #fff;
+  background: transparent;
   top: calc(100% - 2px);
   left: inherit;
   right: 0%;
@@ -217,7 +218,7 @@
 
 .displace .navigation__drop-down.drop-down-menu-2 {
   position: absolute;
-  background: #fff;
+  // background: #fff;
   top: 0;
   right: 100%;
   left: inherit;
@@ -227,7 +228,7 @@
 .navigation__drop-down.drop-down-menu-2 {
   display: none;
   position: absolute;
-  background: #fff;
+  // background: #fff;
   top: 0%;
   left: 100%;
   white-space: nowrap;
